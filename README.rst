@@ -21,6 +21,8 @@ Description
 
 ``img2report`` is a ChRIS-based application that convert brain PNG images to volume text report. It first convert image's pixel value to the real label id. And use FreeSurfer LUT to generate a text report in HTML format. This app is for docking the output of `pl-mriunet <https://github.com/TingyiZhang/pl-mriunet_ser>`_ (prediction images).
 
+The pixel value of segmented images will be converted to `real label index <https://github.com/FNNDSC/pl-mgz2LUT_report/blob/master/mgz2lut_report/FreeSurferColorLUT.txt>`_ based on a `LUT <https://github.com/FNNDSC/pl-mgz2labels/blob/master/lut.txt>`_
+
 
 Usage
 -----
